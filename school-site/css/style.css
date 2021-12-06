@@ -116,13 +116,14 @@ h2{
     font-size: 1.5rem;
 }
 
-h2{} + p {
-    text-indent: ;
+h2 + p {
+    text-indent: 1.5rem;
 }
 
 p{
     font-size: 0.75rem;
     letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
 }
 
 li{
@@ -157,7 +158,7 @@ a:focus, a:hover{
 
 ul{
     margin: 1rem 0;
-    list-style: square;
+    list-style-type: square;
 }
 
 ol{

@@ -93,7 +93,8 @@ body {
 
 p {
     font-family: roboto, arial, sans-serif; 
-    }
+    text-indent: 1.5rem;
+}
 
     h1, h2, h3, h4 {
         font-family: lato, Helvetica, sans-serif;
@@ -135,11 +136,13 @@ nav{
     margin-top: 3rem;
 }
 
-.main-section{
+.main-section {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-gap: 1rem;
 }
+
+
 
 
 
@@ -157,9 +160,15 @@ aside {
 }
 
 aside p {
-    border-bottom: 1px #28234b
+    border-bottom: 1px solid #28234b;
     padding-bottom: 0.5rem;
+    
 }
+
+
+    
+
+
 .subsection {
     display: flex;
 }
@@ -228,8 +237,9 @@ button{
     background-color: #2b2840;
     color:#fffefd;
     text-transform:uppercase;
-    letter-spacing: .3rem;
+    letter-spacing: .1rem;
     box-shadow: 5px 5px 4px #888; 
     font-size: 1.50rem;
       
 }
+
