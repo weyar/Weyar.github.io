@@ -208,6 +208,13 @@ figure {
 a {
     text-decoration: none;
 }
+a:link, a:visited{
+    color: #33658A
+}
+
+a:focus, a:hover{
+    text-decoration: none;
+}
 
 
 nav a {
@@ -243,3 +250,7 @@ button{
       
 }
 
+footer{
+    text-align: right;
+
+}
