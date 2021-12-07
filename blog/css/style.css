@@ -247,10 +247,14 @@ button{
     letter-spacing: .1rem;
     box-shadow: 5px 5px 4px #888; 
     font-size: 1.50rem;
-      
 }
 
 footer{
-    text-align: right;
+        text-align: right;
 
+}
+
+.copyright{
+    float: left;
+    
 }
