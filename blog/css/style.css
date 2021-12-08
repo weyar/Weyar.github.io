@@ -126,6 +126,9 @@ p {
     box-shadow: 5px 5px 4px #888;
 }
 
+
+
+
 /* LAYOUT */
 
 header {
@@ -135,6 +138,7 @@ header {
 nav{
     margin-top: 3rem;
 }
+
 
 .main-section {
     display: grid;
@@ -229,6 +233,14 @@ nav {
     border-top: 1px solid #28234b;
     border-bottom: 1px solid #28234b;
 }
+
+
+.blog{
+    display: inline-block;
+    text-transform: uppercase;
+    transform:rotate(4deg)
+    
+    }
 
 button{
     
